@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.water-fall {
+    background: #EEE;
+    width: 1244px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.water-fall>div{
+    overflow: hidden;
+    position: absolute;
+    border: 1px solid #CCC;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.info {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
