@@ -42,29 +42,70 @@ ul, li {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0;
 }
 
 .gallery-main-container .left,
 .gallery-main-container .right {
-    display: table-cell;
+    color: #999;
+    font-size: 35px;
     vertical-align: middle;
-    color: #CCC;
-    font-size: 3em;
+    height: 80px;
+    line-height: 80px;
+    width: 40px;
+    background: #FFF;
+    
 }
 
-.gallery-main-container i:hover {
-    color: #FFF;
+.gallery-main-container .left {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.gallery-main-container .right {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.gallery-main-container .left:hover,
+.gallery-main-container .right:hover {
+    color: #333;
 }
 
 .gallery-main-container .container {
     display: table-cell;
+    
     vertical-align: middle;
 }
 
 .gallery-main-container .container img{
-    border: 5px solid #FFF;
+    border: 10px solid #FFF;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
     max-width: 600px;
+    vertical-align: middle;
 }
+
+div.image {
+    display: inline-block;
+    position: relative;
+}
+
+.gallery-main-container .container .close {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.3); 
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    transition: all 0.2s;
+}
+
+.gallery-main-container .container .close:hover {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 45px;
+}
+
 
