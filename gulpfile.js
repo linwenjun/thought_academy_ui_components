@@ -1,5 +1,4 @@
 var gulp = require('gulp'),
-    watch = require('gulp-watch');
     connect = require('gulp-connect');
 
 gulp.task('connect', function() {
@@ -10,12 +9,12 @@ gulp.task('connect', function() {
 })
 
 gulp.task('html', function() {
-    gulp.src('./index.html')
+    gulp.src('./**/*.html')
         .pipe(connect.reload())
 })
 
 gulp.task('watch', function() {
-    gulp.watch(['./index.html', './main.css'], ['html']);
+    gulp.watch(['./**/*.html', './**/*.css'], ['html']);
 })
 
 // gulp.task('html', function() {

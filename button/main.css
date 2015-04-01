@@ -1,0 +1,20 @@
+html, body {
+    font-family: arial;
+    font-size: 13px;
+}
+
+.button {
+    background-color: #458ac6;
+    border: 2px solid #458ac6;
+    padding: 0.7em 1.5em;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: default;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    background: #FFF;
+    color: #458ac6;
+}
