@@ -1,0 +1,39 @@
+.navbar {
+    margin: 20px auto;
+    text-align: center;
+}
+.navbar ul {
+    font-size: 0;
+    display: inline-block;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(
+        transparent 0%,     
+        rgba(255, 255, 255, 0.9) 50%,
+        rgba(0, 0, 0, 0.01) 50%,
+        rgba(0, 0, 0, 0.05) 100%
+        );
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.navbar li {
+    font-size: 16px;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-left:1px solid #FFF;
+    border-right:1px solid #CCC;
+    color: #424242;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar li.home {
+    border-left-width: 0;
+    padding-left: 0.8em;
+    padding-right: 0.8em; 
+}
+
+.navbar li:last-child {
+    border-right-width: 0;
+}
