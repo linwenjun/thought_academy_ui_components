@@ -1,0 +1,37 @@
+.twa-tabs {
+    margin: 20px;
+    width: 400px;
+}
+
+.twa-tabs .menu {
+    padding-left: 0.3em;
+}
+
+.twa-tabs .menu>li {
+    display: inline-block;
+    border: 1px solid #000;
+    border-bottom: none;
+    padding: 0.5em 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: #999;
+}
+
+.twa-tabs li.current {
+    border-color: #000;
+    padding-top: 0.55em;
+    padding-bottom: 0.51em;
+    position: relative;
+    bottom: -1px;
+    background: #FFF;
+    border-top: 3px solid;
+    background: #EEE;
+}
+
+.twa-tabs .content {
+    border: 1px solid #000;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #EEE;
+}
