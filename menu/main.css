@@ -50,12 +50,15 @@
     text-align: left;
     line-height: 1.8em;
     opacity: 0;
-    transition: all 0.5s;
+    transform:scaleY(0);
+    transform-origin: top;
+    transition: all 0.2s ease-out;
     color: #666;
 }
 
 .twa-menu .menu>li:hover .sub-menu{
     opacity: 1;
+    transform:scaleY(1);
 }
 
 
