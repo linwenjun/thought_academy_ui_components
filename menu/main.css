@@ -6,7 +6,7 @@
 }
 
 .twa-menu .menu {
-    box-shadow: 0 1px 1px #999;
+    box-shadow: 0 3px 2px #999;
     font-size: 0;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -16,7 +16,7 @@
 .twa-menu .menu>li {
     font-size: 15px;
     display: inline-block;
-    padding: 0.5em 3em;
+    padding: 0.8em 3em;
     background: #EBEBEB;
     position: relative;
     color: #666;
@@ -34,7 +34,7 @@
 
 .twa-menu .menu>li:first-child {
     border-top-left-radius: 6px;
-    padding: 0.5em 1em;
+    padding: 0.8em 1em;
 }
 
 .twa-menu .menu>li:last-child {
@@ -43,7 +43,7 @@
 
 .twa-menu .sub-menu {
     position: absolute;
-    top: 2.2em;
+    top: 2.8em;
     left: 0;
     border: 1px solid #999;
     width: 9em;
